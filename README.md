@@ -9,3 +9,10 @@ Currently, most educational texts are matched to readers using traditional reada
 CommonLit, Inc., is a nonprofit education technology organization serving over 20 million teachers and students with free digital reading and writing lessons for grades 3-12. Together with Georgia State University, an R1 public research university in Atlanta, they are challenging Kagglers to improve readability rating methods.
 
 In this competition, you’ll build algorithms to rate the complexity of reading passages for grade 3-12 classroom use. To accomplish this, you'll pair your machine learning skills with a dataset that includes readers from a wide variety of age groups and a large collection of texts taken from various domains."
+
+
+## Methods
+
+I solved this problem using a variety of methods, including readability scores, a `spaCy` language model and an `XLNet` transformer model.
+
+Best scores were obtained with an ensemble approach combining these methods.
